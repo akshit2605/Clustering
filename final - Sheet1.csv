@@ -1,0 +1,32 @@
+,,,,,,,KMeans Clustering,,,,,,,,,,,
+,With No Data PreProcessing,,,Normalization,,,Transformation,,,PCA,,,Normalize+Tranforme,,,Normalize+Transform+PCA,,
+,Cluster1,Cluster2,Cluster3,Cluster1,Cluster2,Cluster3,Cluster1,Cluster2,Cluster3,Cluster1,Cluster2,Cluster3,Cluster1,Cluster2,Cluster3,Cluster1,Cluster2,Cluster3
+,,,,,,,,,,,,,,,,,,
+Silhouette,0.3491,0.3423,0.305,0.0075,0.0044,0.0034,0.4149,0.3916,0.3435,0.3491,0.3426,0.2925,0.0065,0.0036,0.0025,0.0061,0.0036,0.003
+Calinski-Harabasz,149.7065,139.3805,129.4233,2.6379,2.1596,1.9491,393.206,332.595,314.4169,149.7065,139.3671,129.2098,2.5203,2.1484,1.9391,2.5591,2.1686,1.9338
+Davies-Bouldin,1.0398,1.1621,1.1189,8.1034,8.5025,7.651,0.8746,0.9066,0.995,1.0398,1.1593,1.1911,8.109,8.3949,8.6277,8.4697,8.4031,8.183
+Homogeneity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Rand Index,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Completeness,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,Birch Clustering,,,,,,,,,,
+,With No Data PreProcessing,,,Normalization,,,Transformation,,,PCA,,,Normalize+Tranforme,,,Normalize+Transform+PCA,,
+,Cluster1,Cluster2,Cluster3,Cluster1,Cluster2,Cluster3,Cluster1,Cluster2,Cluster3,Cluster1,Cluster2,Cluster3,Cluster1,Cluster2,Cluster3,Cluster1,Cluster2,Cluster3
+,,,,,,,,,,,,,,,,,,
+Silhouette,0.2897,0.2498,0.2454,0.0084,0.0034,0.003,0.4025,0.3918,0.3215,0.2897,0.2498,0.2454,0.0035,0.0038,0.0033,0.0035,0.0038,0.0033
+Calinski-Harabasz,122.5872,108.2114,106.6113,2.5643,2.1672,1.9521,344.8914,299.645,282.5,122.5872,108.2114,106.6113,2.4181,2.193,1.9594,2.4181,2.193,1.9594
+Davies-Bouldin,1.0777,1.268,1.352,7.593,8.9844,8.4699,1.0044,0.9018,1.0216,1.0777,1.268,1.352,9.6033,8.6484,8.0157,9.6033,8.6484,8.0157
+Homogeneity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Rand Index,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Completeness,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+,,,,,,,,,,,,,,,,,,
+,,,,,,,,Hierarchial Clustering,,,,,,,,,,
+,With No Data PreProcessing,,,Normalization,,,Transformation,,,PCA,,,Normalize+Tranforme,,,Normalize+Transform+PCA,,
+,Cluster1,Cluster2,Cluster3,Cluster1,Cluster2,Cluster3,Cluster1,Cluster2,Cluster3,Cluster1,Cluster2,Cluster3,Cluster1,Cluster2,Cluster3,Cluster1,Cluster2,Cluster3
+,,,,,,,,,,,,,,,,,,
+Silhouette,0.2897,0.2498,0.2454,0.0084,0.0034,0.003,0.3965,0.3231,0.3285,0.2897,0.2498,0.2454,0.0035,0.0038,0.0033,0.0035,0.0038,0.0033
+Calinski-Harabasz,122.5872,108.2114,106.6113,2.5643,2.1672,1.9521,363.3698,307.1944,290.6877,122.5872,108.2114,106.6113,2.4181,2.193,1.9594,2.4181,2.193,1.9594
+Davies-Bouldin,1.0777,1.268,1.352,7.593,8.9844,8.4699,0.8803,1.1746,1.0732,1.0777,1.268,1.352,9.6033,8.6484,8.0157,9.6033,8.6484,8.0157
+Homogeneity,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Rand Index,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Completeness,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
